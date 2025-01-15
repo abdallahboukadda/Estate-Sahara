@@ -1,0 +1,16 @@
+/* Additional CSS for learn-more class if needed */
+.learn-more::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 2px;
+    background-color: #005555;
+    transition: width 0.3s ease;
+  }
+  
+  .learn-more:hover::before {
+    width: 0%;
+  }
+  
